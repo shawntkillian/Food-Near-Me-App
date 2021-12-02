@@ -22,7 +22,6 @@ const ResultsShowScreen = ({route}) => {
        return null;
    }
 
-   console.log(result)
   return (
     <View style= {styles.container}>
         <Text style= {styles.text}>{result.name}</Text>
